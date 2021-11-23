@@ -16,4 +16,4 @@ COPY entrypoint_my.sh entrypoint_my.sh
 
 RUN chmod u+x entrypoint_my.sh
 
-CMD ["./entrypoint_my.sh"]
+CMD ["sh", "-c", "./entrypoint_my.sh"]
